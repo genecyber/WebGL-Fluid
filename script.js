@@ -276,7 +276,7 @@ function startGUI () {
     app.domElement.parentElement.appendChild(appIcon);
     appIcon.className = 'icon app';
 
-    if (isMobile())
+    if (isMobile() || !isMobile())
         gui.close();
 }
 
